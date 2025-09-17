@@ -4,12 +4,13 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
+theme: {
     extend: {
       fontFamily: {
         sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
       },
       colors: {
+        border: '#e2e8f0',
         primary: {
           50: '#eff6ff',
           100: '#dbeafe',
@@ -26,6 +27,11 @@ export default {
           500: '#0ea5e9',
           600: '#0284c7',
         }
+      },
+      borderColor: {
+        DEFAULT: '#e2e8f0',
+        primary: '#2563eb',
+        secondary: '#64748b',
       },
       animation: {
         'fade-in': 'fadeIn 0.2s ease-out',
