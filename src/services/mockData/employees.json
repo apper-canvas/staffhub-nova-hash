@@ -1,0 +1,338 @@
+[
+  {
+    "Id": 1,
+    "firstName": "John",
+    "lastName": "Smith",
+    "email": "john.smith@company.com",
+    "phone": "+1 (555) 123-4567",
+    "position": "Software Engineer",
+    "departmentId": 1,
+    "department": "Engineering",
+    "hireDate": "2022-03-15T00:00:00.000Z",
+    "salary": 85000,
+    "status": "active",
+    "address": {
+      "street": "123 Tech Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94105"
+    },
+    "emergencyContact": {
+      "name": "Jane Smith",
+      "relationship": "Spouse",
+      "phone": "+1 (555) 123-4568"
+    },
+    "photoUrl": "",
+    "notes": "Excellent performance in Q3. Leading the mobile app project.",
+    "createdAt": "2022-03-15T00:00:00.000Z",
+    "updatedAt": "2024-01-15T00:00:00.000Z"
+  },
+  {
+    "Id": 2,
+    "firstName": "Sarah",
+    "lastName": "Johnson",
+    "email": "sarah.johnson@company.com",
+    "phone": "+1 (555) 234-5678",
+    "position": "Marketing Manager",
+    "departmentId": 2,
+    "department": "Marketing",
+    "hireDate": "2021-09-20T00:00:00.000Z",
+    "salary": 72000,
+    "status": "active",
+    "address": {
+      "street": "456 Marketing Ave",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001"
+    },
+    "emergencyContact": {
+      "name": "Mike Johnson",
+      "relationship": "Husband",
+      "phone": "+1 (555) 234-5679"
+    },
+    "photoUrl": "",
+    "notes": "Spearheading the Q4 campaign launch. Great team leadership skills.",
+    "createdAt": "2021-09-20T00:00:00.000Z",
+    "updatedAt": "2024-01-10T00:00:00.000Z"
+  },
+  {
+    "Id": 3,
+    "firstName": "Michael",
+    "lastName": "Davis",
+    "email": "michael.davis@company.com",
+    "phone": "+1 (555) 345-6789",
+    "position": "Senior Developer",
+    "departmentId": 1,
+    "department": "Engineering",
+    "hireDate": "2020-01-10T00:00:00.000Z",
+    "salary": 95000,
+    "status": "active",
+    "address": {
+      "street": "789 Code Lane",
+      "city": "Seattle",
+      "state": "WA",
+      "zipCode": "98101"
+    },
+    "emergencyContact": {
+      "name": "Lisa Davis",
+      "relationship": "Sister",
+      "phone": "+1 (555) 345-6780"
+    },
+    "photoUrl": "",
+    "notes": "Recently promoted to Senior Developer. Mentoring junior developers.",
+    "createdAt": "2020-01-10T00:00:00.000Z",
+    "updatedAt": "2024-01-20T00:00:00.000Z"
+  },
+  {
+    "Id": 4,
+    "firstName": "Emily",
+    "lastName": "Wilson",
+    "email": "emily.wilson@company.com",
+    "phone": "+1 (555) 456-7890",
+    "position": "HR Specialist",
+    "departmentId": 3,
+    "department": "Human Resources",
+    "hireDate": "2022-06-01T00:00:00.000Z",
+    "salary": 58000,
+    "status": "active",
+    "address": {
+      "street": "321 HR Boulevard",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60601"
+    },
+    "emergencyContact": {
+      "name": "David Wilson",
+      "relationship": "Father",
+      "phone": "+1 (555) 456-7891"
+    },
+    "photoUrl": "",
+    "notes": "Handling onboarding processes and employee relations. Very detail-oriented.",
+    "createdAt": "2022-06-01T00:00:00.000Z",
+    "updatedAt": "2024-01-12T00:00:00.000Z"
+  },
+  {
+    "Id": 5,
+    "firstName": "Robert",
+    "lastName": "Brown",
+    "email": "robert.brown@company.com",
+    "phone": "+1 (555) 567-8901",
+    "position": "Financial Analyst",
+    "departmentId": 4,
+    "department": "Finance",
+    "hireDate": "2021-11-15T00:00:00.000Z",
+    "salary": 68000,
+    "status": "active",
+    "address": {
+      "street": "654 Finance Street",
+      "city": "Boston",
+      "state": "MA",
+      "zipCode": "02101"
+    },
+    "emergencyContact": {
+      "name": "Mary Brown",
+      "relationship": "Mother",
+      "phone": "+1 (555) 567-8902"
+    },
+    "photoUrl": "",
+    "notes": "Excellent analytical skills. Working on budget forecasting for 2024.",
+    "createdAt": "2021-11-15T00:00:00.000Z",
+    "updatedAt": "2024-01-08T00:00:00.000Z"
+  },
+  {
+    "Id": 6,
+    "firstName": "Jessica",
+    "lastName": "Garcia",
+    "email": "jessica.garcia@company.com",
+    "phone": "+1 (555) 678-9012",
+    "position": "Sales Representative",
+    "departmentId": 5,
+    "department": "Sales",
+    "hireDate": "2023-02-14T00:00:00.000Z",
+    "salary": 52000,
+    "status": "active",
+    "address": {
+      "street": "987 Sales Avenue",
+      "city": "Miami",
+      "state": "FL",
+      "zipCode": "33101"
+    },
+    "emergencyContact": {
+      "name": "Carlos Garcia",
+      "relationship": "Brother",
+      "phone": "+1 (555) 678-9013"
+    },
+    "photoUrl": "",
+    "notes": "Top performer in Q3. Exceeded sales targets by 15%.",
+    "createdAt": "2023-02-14T00:00:00.000Z",
+    "updatedAt": "2024-01-18T00:00:00.000Z"
+  },
+  {
+    "Id": 7,
+    "firstName": "Daniel",
+    "lastName": "Martinez",
+    "email": "daniel.martinez@company.com",
+    "phone": "+1 (555) 789-0123",
+    "position": "UX Designer",
+    "departmentId": 6,
+    "department": "Design",
+    "hireDate": "2022-08-22T00:00:00.000Z",
+    "salary": 75000,
+    "status": "active",
+    "address": {
+      "street": "159 Design Street",
+      "city": "Austin",
+      "state": "TX",
+      "zipCode": "73301"
+    },
+    "emergencyContact": {
+      "name": "Sofia Martinez",
+      "relationship": "Wife",
+      "phone": "+1 (555) 789-0124"
+    },
+    "photoUrl": "",
+    "notes": "Working on the redesign of the main product interface. Great attention to user experience.",
+    "createdAt": "2022-08-22T00:00:00.000Z",
+    "updatedAt": "2024-01-14T00:00:00.000Z"
+  },
+  {
+    "Id": 8,
+    "firstName": "Ashley",
+    "lastName": "Taylor",
+    "email": "ashley.taylor@company.com",
+    "phone": "+1 (555) 890-1234",
+    "position": "Project Manager",
+    "departmentId": 7,
+    "department": "Operations",
+    "hireDate": "2021-04-05T00:00:00.000Z",
+    "salary": 78000,
+    "status": "active",
+    "address": {
+      "street": "753 Operations Way",
+      "city": "Denver",
+      "state": "CO",
+      "zipCode": "80201"
+    },
+    "emergencyContact": {
+      "name": "Kevin Taylor",
+      "relationship": "Husband",
+      "phone": "+1 (555) 890-1235"
+    },
+    "photoUrl": "",
+    "notes": "Managing multiple cross-functional projects. Excellent organizational skills.",
+    "createdAt": "2021-04-05T00:00:00.000Z",
+    "updatedAt": "2024-01-16T00:00:00.000Z"
+  },
+  {
+    "Id": 9,
+    "firstName": "Christopher",
+    "lastName": "Anderson",
+    "email": "christopher.anderson@company.com",
+    "phone": "+1 (555) 901-2345",
+    "position": "DevOps Engineer",
+    "departmentId": 1,
+    "department": "Engineering",
+    "hireDate": "2023-01-03T00:00:00.000Z",
+    "salary": 88000,
+    "status": "pending",
+    "address": {
+      "street": "852 DevOps Drive",
+      "city": "Portland",
+      "state": "OR",
+      "zipCode": "97201"
+    },
+    "emergencyContact": {
+      "name": "Linda Anderson",
+      "relationship": "Mother",
+      "phone": "+1 (555) 901-2346"
+    },
+    "photoUrl": "",
+    "notes": "Recently hired. Still completing onboarding process.",
+    "createdAt": "2023-01-03T00:00:00.000Z",
+    "updatedAt": "2024-01-03T00:00:00.000Z"
+  },
+  {
+    "Id": 10,
+    "firstName": "Amanda",
+    "lastName": "White",
+    "email": "amanda.white@company.com",
+    "phone": "+1 (555) 012-3456",
+    "position": "Content Writer",
+    "departmentId": 2,
+    "department": "Marketing",
+    "hireDate": "2022-12-01T00:00:00.000Z",
+    "salary": 55000,
+    "status": "inactive",
+    "address": {
+      "street": "951 Content Lane",
+      "city": "Nashville",
+      "state": "TN",
+      "zipCode": "37201"
+    },
+    "emergencyContact": {
+      "name": "James White",
+      "relationship": "Father",
+      "phone": "+1 (555) 012-3457"
+    },
+    "photoUrl": "",
+    "notes": "Currently on leave of absence. Expected to return next month.",
+    "createdAt": "2022-12-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "Id": 11,
+    "firstName": "Alex",
+    "lastName": "Chen",
+    "email": "alex.chen@company.com",
+    "phone": "+1 (555) 111-2222",
+    "position": "Data Scientist",
+    "departmentId": 1,
+    "department": "Engineering",
+    "hireDate": "2024-01-15T00:00:00.000Z",
+    "salary": 92000,
+    "status": "active",
+    "address": {
+      "street": "147 Data Avenue",
+      "city": "San Jose",
+      "state": "CA",
+      "zipCode": "95101"
+    },
+    "emergencyContact": {
+      "name": "Wei Chen",
+      "relationship": "Spouse",
+      "phone": "+1 (555) 111-2223"
+    },
+    "photoUrl": "",
+    "notes": "New hire specializing in machine learning and analytics.",
+    "createdAt": "2024-01-15T00:00:00.000Z",
+    "updatedAt": "2024-01-15T00:00:00.000Z"
+  },
+  {
+    "Id": 12,
+    "firstName": "Rachel",
+    "lastName": "Thompson",
+    "email": "rachel.thompson@company.com",
+    "phone": "+1 (555) 222-3333",
+    "position": "Customer Success Manager",
+    "departmentId": 8,
+    "department": "Customer Success",
+    "hireDate": "2023-09-18T00:00:00.000Z",
+    "salary": 65000,
+    "status": "active",
+    "address": {
+      "street": "258 Success Street",
+      "city": "Atlanta",
+      "state": "GA",
+      "zipCode": "30301"
+    },
+    "emergencyContact": {
+      "name": "Mark Thompson",
+      "relationship": "Husband",
+      "phone": "+1 (555) 222-3334"
+    },
+    "photoUrl": "",
+    "notes": "Managing key client relationships. Excellent customer retention rates.",
+    "createdAt": "2023-09-18T00:00:00.000Z",
+    "updatedAt": "2024-01-11T00:00:00.000Z"
+  }
+]
